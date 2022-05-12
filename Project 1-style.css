@@ -56,87 +56,58 @@ font-size: 40px;
 text-shadow: 4px 4px 8px black;
 }
 
-
-#container
+#BBC
 {
-    height:auto;
-    width: fit;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-}
-
-
-#container2
-{
-    height:auto;
-    width: fit;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-}
-
-#containerP2
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 800px;
+    background-image: url('BBC.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    width: 400px;
 }
 
-   
+.textCenter
+{
+    text-align: center;
+}
 
-    .P2a
-    {
-        background-image: url('BBC.jpeg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        opacity: 0.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        width: 400px;
-        
-    }
+#Gordon
+{
+    background-image: url('GordonRamsay.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
 
-    .P2b
-    {
-        background-image: url('GordonRamsay.jpeg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        opacity: 0.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        width: 400px;
-    }
+#Jamie
+{
+    background-image: url('JamieOliver.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}    
 
-    .P2c
-    {
-        background-image: url('JamieOliver.jpeg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        opacity: 0.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        width: 400px;
-    }
-
-    .P2d
-    {
-        background-image: url('uncleroger.jpeg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        opacity: 0.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        width: 400px;
-    }
+#Roger
+{
+    background-image: url('uncleroger.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
 
 #containerP3
 {
@@ -148,7 +119,6 @@ text-shadow: 4px 4px 8px black;
 
 #header
 {
-    height: auto;
     border: whitesmoke;
     border-width: 25px;
     background-color: #800020;
@@ -157,28 +127,18 @@ text-shadow: 4px 4px 8px black;
     padding: 10px;
 }
 
-#panel1
-{
-    width:  10%;
-    float: left;
-    background-color: #800020;
-    text-align: left;
-    font-size: 10px;
-}
 
-#panel2
+
+#panel
 {
-    width:  10%;
-    float: right;
     background-color: #800020;
+    display: flex;
     text-align: right;
     font-size: 10px;
 }
 
 #body
 {
-    width: 80%;
-    float: left;
     background-color:white;
     padding: 1em;
 }
@@ -188,7 +148,6 @@ text-shadow: 4px 4px 8px black;
 {
     height: auto;
     text-align: center;
-    height: auto;
     background-color:#800020;
     padding: 10px;
     color:whitesmoke;
@@ -203,69 +162,73 @@ text-shadow: 4px 4px 8px black;
     justify-content: space-around;
 }
 
+*/
 
-
+.panel
+    {
+    background-color: #800020;
+    }
 
 <style>
-    
-.flexbox
-{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-}
 
-    .footertext
+    .flexbox
     {
-        color:whitesmoke;
-        font-size: 12px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
 
-    .ol2
-    {
-        font-size: 28px;
-        font-style: italic;
-    }
+        .footertext
+        {
+            color:whitesmoke;
+            font-size: 12px;
+
+        }
+
+        .ol2
+        {
+            font-size: 28px;
+            font-style: italic;
+        }
 
 
-    .li3
-    {
-        font-style: italic;
-        font-size: 28px;
-        line-height: 1.5;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-    }
+        .li3
+        {
+            font-style: italic;
+            font-size: 28px;
+            line-height: 1.5;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
 
-    .text-left
-    {
-    float: left;
-    }
+        .text-left
+        {
+        float: left;
+        }
 
-    .text-right
-    {
-    float: right;
-    }
+        .text-right
+        {
+        float: right;
+        }
 
-    .imgCenter 
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
+        .imgCenter 
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
 
-    .startCenter
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 25%;
-    }
+        .startCenter
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
 
-    .button {
-        font-size: 24px;
-        padding: 10px;
-    }
+        .button {
+            font-size: 24px;
+            padding: 10px;
+        }
