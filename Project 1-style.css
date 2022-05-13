@@ -25,12 +25,12 @@ h2
 {
     color:rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px
+    font-size: 46px
 }
 
 h3
 {
-    font-size: 30px;
+    font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -71,6 +71,9 @@ text-shadow: 4px 4px 8px black;
 .textCenter
 {
     text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
 }
 
 #Gordon
@@ -205,6 +208,12 @@ text-shadow: 4px 4px 8px black;
         .text-left
         {
         float: left;
+        }
+
+
+        .text-center
+        {
+        align-items: center;
         }
 
         .text-right
