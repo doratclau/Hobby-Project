@@ -165,14 +165,6 @@ text-shadow: 6px 6px 12px black;
     font-size: 12px;
 }
 
-
-.flexContainer
-{
-    display: flex;
-    align-items: stretch;
-    justify-content: space-around;
-}
-
 .panel
     {
     background-color: #800020;
@@ -240,7 +232,7 @@ text-shadow: 6px 6px 12px black;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 25%;
+            width: 20%;
         }
 
         .navBottom
@@ -251,7 +243,4 @@ text-shadow: 6px 6px 12px black;
             width: 15%;
         }
 
-        .button {
-            font-size: 24px;
-            padding: 10px;
-        }
+</style>
